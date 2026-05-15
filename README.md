@@ -44,3 +44,45 @@ blockchain state. Deploying a contract costs gas.
 visibility keywords
 
 **Self assessment:** Completed the Test Me section.
+
+## Week 1 - Day 4
+**Topic:** Arrays and Structs
+
+**What I learned:** Arrays store lists of the same data type. 
+Structs allow you to create custom data types that group 
+different variables together.
+
+**Code written:** Examples using arrays and structs inside 
+SimpleStorage contract
+
+## Week 1 - Day 5
+**Topic:** Errors and Warnings in Solidity
+
+**What I learned:** Errors and warnings are different — 
+warnings don't stop code from compiling but errors do. 
+Debugging requires patience and attention to detail.
+
+**Real debugging experience:** Spent time tracking down 
+a missing semicolon in my own contract. Found it myself.
+
+**Key lesson:** Always read error messages carefully before 
+assuming the problem is complex.
+
+## Week 1 - Day 6
+**Topic:** Calldata, Memory and Storage
+
+**What I learned:** These are the three places Solidity 
+stores data. Storage is permanent and costs more gas. 
+Memory is temporary. Calldata is read-only 
+input data and cheaper.
+
+## Week 1 - Day 7
+**Topic:** Mapping
+
+**What I learned:** Mapping works like a dictionary — 
+you give it a key and it returns a value. More efficient 
+than arrays for direct lookups.
+
+**Key insight:** Before writing any code follow this order:
+Problem → Logic → Structure → Syntax.
+Most beginners freeze because they skip straight to syntax.

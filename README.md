@@ -86,3 +86,25 @@ than arrays for direct lookups.
 **Key insight:** Before writing any code follow this order:
 Problem → Logic → Structure → Syntax.
 Most beginners freeze because they skip straight to syntax.
+
+## Week 2 - Day 1
+**Topic:** Testnet Deployment & Etherscan
+
+**What I learned:** Deploying to a real testnet requires 
+native currency for gas. Etherscan shows how the blockchain 
+state updates after each transaction. Did full section 
+revision.
+
+**Pending:** Deploy SimpleStorage on Sepolia once I get 
+test ETH from faucet.
+
+## Section 1 Complete ✅
+**Topics covered:** Solidity basics, variable types, 
+functions, visibility, scope, arrays, structs, errors, 
+calldata/memory/storage, mapping, deployment.
+
+**Biggest lesson:** Problem → Logic → Structure → Syntax. 
+Don't jump straight into coding.
+
+**Milestone:** Deployed SimpleStorage contract on Remix VM. 
+Understand full testnet deployment flow.

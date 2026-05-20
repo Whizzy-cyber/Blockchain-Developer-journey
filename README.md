@@ -108,3 +108,18 @@ Don't jump straight into coding.
 
 **Milestone:** Deployed SimpleStorage contract on Remix VM. 
 Understand full testnet deployment flow.
+
+## Week 2 - Day 2
+**Topic:** Contract Interactions & Composability
+
+**What I learned:** You can deploy a contract inside 
+another contract and have them interact. Composability 
+means building on top of existing contracts without 
+rewriting them.
+
+## Week 2 - Day 3
+**Topic:** Imports
+
+**What I learned:** Import statements let you bring in 
+code from other files without copying the entire codebase. 
+This is how developers build on existing contracts.

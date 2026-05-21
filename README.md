@@ -11,12 +11,9 @@
 **Topic:** Basic Variable Types
 
 **What I learned:** Variables are placeholders for values. 
-Solidity has specific types - bool, address, bytes, string, 
-int and uint. This is how blockchain state is represented 
-programmatically.
+Solidity has specific types - bool, address, bytes, string, int and uint. This is how blockchain state is represented programmatically.
 
-**Key insight:** Choosing the right variable type affects 
-gas cost on the blockchain.
+**Key insight:** Choosing the right variable type affects gas cost on the blockchain.
 
 **Code written:** Basic variable declarations practice
 **Code written:**
@@ -32,16 +29,12 @@ bytes32 favoriteByte;
 ## Week 1 - Day 3
 **Topic:** Functions, Visibility, Scope & First Deployment
 
-**What I learned:** Functions are subsections of code that 
-execute a specific task when called. Visibility keywords 
-(public, private, internal, external) control who can 
-access a function. Pure and view functions don't alter 
+**What I learned:** Functions are subsections of code that execute a specific task when called. Visibility keywords (public, private, internal, external) control who can access a function. Pure and view functions don't alter 
 blockchain state. Deploying a contract costs gas.
 
 **Milestone:** Deployed my first smart contract on Remix VM
 
-**Code written:** SimpleStorage with functions and 
-visibility keywords
+**Code written:** SimpleStorage with functions and visibility keywords
 
 **Self assessment:** Completed the Test Me section.
 
@@ -49,39 +42,31 @@ visibility keywords
 **Topic:** Arrays and Structs
 
 **What I learned:** Arrays store lists of the same data type. 
-Structs allow you to create custom data types that group 
-different variables together.
+Structs allow you to create custom data types that group different variables together.
 
-**Code written:** Examples using arrays and structs inside 
-SimpleStorage contract
+**Code written:** Examples using arrays and structs inside SimpleStorage contract
 
 ## Week 1 - Day 5
 **Topic:** Errors and Warnings in Solidity
 
-**What I learned:** Errors and warnings are different — 
-warnings don't stop code from compiling but errors do. 
+**What I learned:** Errors and warnings are different — warnings don't stop code from compiling but errors do. 
 Debugging requires patience and attention to detail.
 
-**Real debugging experience:** Spent time tracking down 
-a missing semicolon in my own contract. Found it myself.
+**Real debugging experience:** Spent time tracking down a missing semicolon in my own contract. Found it myself.
 
-**Key lesson:** Always read error messages carefully before 
-assuming the problem is complex.
+**Key lesson:** Always read error messages carefully before assuming the problem is complex.
 
 ## Week 1 - Day 6
 **Topic:** Calldata, Memory and Storage
 
-**What I learned:** These are the three places Solidity 
-stores data. Storage is permanent and costs more gas. 
+**What I learned:** These are the three places Solidity stores data. Storage is permanent and costs more gas. 
 Memory is temporary. Calldata is read-only 
 input data and cheaper.
 
 ## Week 1 - Day 7
 **Topic:** Mapping
 
-**What I learned:** Mapping works like a dictionary — 
-you give it a key and it returns a value. More efficient 
-than arrays for direct lookups.
+**What I learned:** Mapping works like a dictionary — you give it a key and it returns a value. More efficient than arrays for direct lookups.
 
 **Key insight:** Before writing any code follow this order:
 Problem → Logic → Structure → Syntax.
@@ -90,18 +75,13 @@ Most beginners freeze because they skip straight to syntax.
 ## Week 2 - Day 1
 **Topic:** Testnet Deployment & Etherscan
 
-**What I learned:** Deploying to a real testnet requires 
-native currency for gas. Etherscan shows how the blockchain 
-state updates after each transaction. Did full section 
-revision.
+**What I learned:** Deploying to a real testnet requires native currency for gas. Etherscan shows how the blockchain state updates after each transaction. Did full section revision.
 
 **Pending:** Deploy SimpleStorage on Sepolia once I get 
 test ETH from faucet.
 
 ## Section 1 Complete ✅
-**Topics covered:** Solidity basics, variable types, 
-functions, visibility, scope, arrays, structs, errors, 
-calldata/memory/storage, mapping, deployment.
+**Topics covered:** Solidity basics, variable types,functions, visibility, scope, arrays, structs, errors,calldata/memory/storage, mapping, deployment.
 
 **Biggest lesson:** Problem → Logic → Structure → Syntax. 
 Don't jump straight into coding.
@@ -112,14 +92,24 @@ Understand full testnet deployment flow.
 ## Week 2 - Day 2
 **Topic:** Contract Interactions & Composability
 
-**What I learned:** You can deploy a contract inside 
-another contract and have them interact. Composability 
-means building on top of existing contracts without 
-rewriting them.
+**What I learned:** You can deploy a contract inside another contract and have them interact. Composability means building on top of existing contracts without rewriting them.
 
 ## Week 2 - Day 3
 **Topic:** Imports
 
-**What I learned:** Import statements let you bring in 
-code from other files without copying the entire codebase. 
+**What I learned:** Import statements let you bring in code from other files without copying the entire codebase. 
 This is how developers build on existing contracts.
+
+## Week 2 - Day 4
+**Topic:** Contract Interaction & Inheritance
+
+**What I learned:** ABI (Application Binary Interface) is what allows contracts to interact with each other — it defines the available functions and how to call them. 
+Inheritance allows a contract to take on the properties of another. Override lets you rewrite inherited functions.
+
+## Section 2 Complete ✅
+**Topics covered:** Contract interactions, composability,imports, ABI, inheritance and override.
+
+**Biggest lesson:** Imports eliminate the need to copy 
+and paste code between files — one source of truth that everything pulls from.
+
+**Milestone:** Understood how professional developers build on top of existing contracts instead of rewriting everything from scratch.

@@ -113,3 +113,11 @@ Inheritance allows a contract to take on the properties of another. Override let
 and paste code between files — one source of truth that everything pulls from.
 
 **Milestone:** Understood how professional developers build on top of existing contracts instead of rewriting everything from scratch.
+
+## Section 3 - Day 1
+**Topic:** FundMe Contract - payable, require, revert
+
+**What I learned:** Payable allows functions and addresses 
+to receive ETH. Require sets conditions that must pass or 
+the transaction fails. Revert undoes state changes when 
+something goes wrong.

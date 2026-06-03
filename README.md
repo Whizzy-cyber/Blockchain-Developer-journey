@@ -7,6 +7,7 @@
 **How I felt:** Confused by Remix at first but getting familiar
 
 
+
 ## Week 1 - Day 2
 **Topic:** Basic Variable Types
 
@@ -121,3 +122,22 @@ and paste code between files — one source of truth that everything pulls from.
 to receive ETH. Require sets conditions that must pass or 
 the transaction fails. Revert undoes state changes when 
 something goes wrong.
+
+
+## Projects
+
+### Project 1 - FavoriteNumber Contract ✅
+**What it does:** Stores, retrieves and updates a favorite number on the blockchain.
+**Concepts used:** uint256, public functions, view
+**Status:** Compiled and deployed on Remix VM
+
+### Project 2 - Contact Information Contract ✅
+**What it does:** Stores and retrieves contacts with name and phone number.
+**Concepts used:** Struct, dynamic array, memory keyword
+**Status:** Compiled and deployed on Remix VM
+
+### Project 3 - Donation Box Contract ✅
+**What it does:** Accepts ETH donations, tracks each donor's contribution, owner can withdraw funds.
+**Concepts used:** payable, require, constructor, 
+mapping, msg.sender, msg.value
+**Status:** Compiled successfully

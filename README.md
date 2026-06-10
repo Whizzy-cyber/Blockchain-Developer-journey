@@ -153,3 +153,8 @@ Completed full Solidity curriculum. Ready for Foundry.
 **Concepts used:** payable, require, constructor, 
 mapping, msg.sender, msg.value
 **Status:** Compiled successfully
+
+### Project 4 - Voting System Contract ✅
+**What it does:** Owner adds candidates and registers eligible voters. Registered voters cast one vote each.Results viewable by anyone.
+**Concepts used:** Struct, array, mapping, constructor,modifier,require,access control
+**Status:** Compiled and deployed on Remix VM

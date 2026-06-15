@@ -135,6 +135,10 @@ something goes wrong.
 ## Solidity 101 Complete ✅ 
 Completed full Solidity curriculum. Ready for Foundry.
 
+## Week 1 - Foundry
+Learning Foundry toolchain — compile, deploy locally 
+using Anvil, project structure.
+
 
 ## Projects
 

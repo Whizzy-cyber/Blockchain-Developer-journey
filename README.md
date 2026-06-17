@@ -170,3 +170,12 @@ mapping, msg.sender, msg.value
 **What it does:** Owner adds candidates and registers eligible voters. Registered voters cast one vote each.Results viewable by anyone.
 **Concepts used:** Struct, array, mapping, constructor,modifier,require,access control
 **Status:** Compiled and deployed on Remix VM
+
+### Project 5 - Banking Contract ✅
+**What it does:** Users deposit and withdraw their own 
+ETH, balance tracked individually per address.
+**Concepts used:** mapping, payable, require, 
+individual ownership (no single contract owner needed)
+**Tooling:** Built and tested in Foundry using Anvil, 
+forge create, cast send, cast call
+**Status:** Deployed locally and fully tested

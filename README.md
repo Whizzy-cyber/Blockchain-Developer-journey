@@ -139,6 +139,14 @@ Completed full Solidity curriculum. Ready for Foundry.
 Learning Foundry toolchain — compile, deploy locally 
 using Anvil, project structure.
 
+## Foundry - Private Key Security
+**What I learned:** .env stores secrets locally, 
+.gitignore prevents them from being pushed to GitHub. 
+Also learned cast for encrypted private key storage - 
+more secure than plain .env files.
+**Decision:** Staying with standard Foundry, not 
+zkSync, to master core tooling first.
+
 
 ## Projects
 

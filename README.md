@@ -1,5 +1,5 @@
 # Blockchain-Developer-journey
-## Week 1 - Day1
+## Week 1
 **Topic:** Introduction To Solidity & Remix IDE
 **What I learned:** Every Solidity file starts with a license identifier and a pragma line that specifies the compiler version. A contract is declared using the contract keyword.
 **Code written:** SimpleStorage contract (basic shell structure) whose purpose is to store and retrive data from blockchain state.
@@ -8,7 +8,7 @@
 
 
 
-## Week 1 - Day 2
+## Week 1
 **Topic:** Basic Variable Types
 
 **What I learned:** Variables are placeholders for values. 
@@ -27,7 +27,7 @@ address myAddress = 0x...;
 bytes32 favoriteByte;
 ```
 
-## Week 1 - Day 3
+## Week 1
 **Topic:** Functions, Visibility, Scope & First Deployment
 
 **What I learned:** Functions are subsections of code that execute a specific task when called. Visibility keywords (public, private, internal, external) control who can access a function. Pure and view functions don't alter 
@@ -39,7 +39,7 @@ blockchain state. Deploying a contract costs gas.
 
 **Self assessment:** Completed the Test Me section.
 
-## Week 1 - Day 4
+## Week 1
 **Topic:** Arrays and Structs
 
 **What I learned:** Arrays store lists of the same data type. 
@@ -47,7 +47,7 @@ Structs allow you to create custom data types that group different variables tog
 
 **Code written:** Examples using arrays and structs inside SimpleStorage contract
 
-## Week 1 - Day 5
+## Week 1
 **Topic:** Errors and Warnings in Solidity
 
 **What I learned:** Errors and warnings are different — warnings don't stop code from compiling but errors do. 
@@ -57,14 +57,14 @@ Debugging requires patience and attention to detail.
 
 **Key lesson:** Always read error messages carefully before assuming the problem is complex.
 
-## Week 1 - Day 6
+## Week 1
 **Topic:** Calldata, Memory and Storage
 
 **What I learned:** These are the three places Solidity stores data. Storage is permanent and costs more gas. 
 Memory is temporary. Calldata is read-only 
 input data and cheaper.
 
-## Week 1 - Day 7
+## Week 1
 **Topic:** Mapping
 
 **What I learned:** Mapping works like a dictionary — you give it a key and it returns a value. More efficient than arrays for direct lookups.
@@ -73,7 +73,7 @@ input data and cheaper.
 Problem → Logic → Structure → Syntax.
 Most beginners freeze because they skip straight to syntax.
 
-## Week 2 - Day 1
+## Week 2
 **Topic:** Testnet Deployment & Etherscan
 
 **What I learned:** Deploying to a real testnet requires native currency for gas. Etherscan shows how the blockchain state updates after each transaction. Did full section revision.
@@ -90,18 +90,18 @@ Don't jump straight into coding.
 **Milestone:** Deployed SimpleStorage contract on Remix VM. 
 Understand full testnet deployment flow.
 
-## Week 2 - Day 2
+## Week 2
 **Topic:** Contract Interactions & Composability
 
 **What I learned:** You can deploy a contract inside another contract and have them interact. Composability means building on top of existing contracts without rewriting them.
 
-## Week 2 - Day 3
+## Week 2
 **Topic:** Imports
 
 **What I learned:** Import statements let you bring in code from other files without copying the entire codebase. 
 This is how developers build on existing contracts.
 
-## Week 2 - Day 4
+## Week 2
 **Topic:** Contract Interaction & Inheritance
 
 **What I learned:** ABI (Application Binary Interface) is what allows contracts to interact with each other — it defines the available functions and how to call them. 
@@ -115,7 +115,7 @@ and paste code between files — one source of truth that everything pulls from.
 
 **Milestone:** Understood how professional developers build on top of existing contracts instead of rewriting everything from scratch.
 
-## Section 3 - Day 1
+## Section 3
 **Topic:** FundMe Contract - payable, require, revert
 
 **What I learned:** Payable allows functions and addresses 

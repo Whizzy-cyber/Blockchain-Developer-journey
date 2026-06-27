@@ -1,0 +1,23 @@
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.19;
+
+contract ContactInformation {
+
+    struct Contact{
+        string name;
+        string phoneNumber;
+  }
+
+  Contact[] public contacts;
+
+  function createContactLists(string memory _name, string memory _phoneNumber) public {
+    contacts.push(Contact(_name, _phoneNumber));  // the store function is here
+  }
+
+  function retrieve(uint256 index) public view returns(Contact memory){
+    return contacts[index];
+
+  }
+}
+```

@@ -1,4 +1,3 @@
-```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
@@ -43,7 +42,4 @@ contract VotingSystem {
     function getResults(uint256 _candidateIndex) public view returns(string memory, uint256) {
         return (candidates[_candidateIndex].candidate, candidates[_candidateIndex].votecount);
     }
-}
-```
-    
-    
+}   

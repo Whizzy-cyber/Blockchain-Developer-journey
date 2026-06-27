@@ -22,6 +22,5 @@ function withdraw() public { // a publicly accessible func. that allows the owne
     require(msg.sender == owner, "Not the owner"); // require checks the condition (msg.sender = owner)- if the person calling the func. is not the owner, the transaction immediately reverts with the message "Not the owner". Nothing else in the func. exeutes.
     (bool success, ) = payable(msg.sender).call{value: address(this).balance}(""); // payable(msg.sender)- make the owner's address capable of receiving ETH, .call{value: address(this).balance}("")- send the entire contract balance to that address, (bool success, )- capture whether the transfer worked or not. success will be true if it went through, false if it failed. It attempt to send all the contract's ETH to the owner & record whether it worked.
     require(success, "Transfer failed"); // confirms if the transfer failed for any reason, revert the whole transaction.
-}
-
+ }
 }
